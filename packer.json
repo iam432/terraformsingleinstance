@@ -12,6 +12,7 @@
     "source_ami": "ami-0e9089763828757e1",
     "instance_type": "t2.nano",
     "ssh_username": "ec2-user",
+     "associate_public_ip_address": "true"
     "ami_name": "DevOpsClass-Build-{{isotime | clean_resource_name}}",
     "vpc_id": "vpc-061000b18de3c3dbd",
     "subnet_id": "subnet-03a3ad8d0b398aa3b"
